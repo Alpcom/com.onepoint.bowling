@@ -23,12 +23,12 @@ mvn clean install -Pnative-image
 running the jar file
 
 ```bash
-java -jar ./target/bowling-0.0.1-SNAPSHOT-jar-with-dependencies.jar -i=src/test/resources/com/onepoint/bowling/integrationTest/integrationTestResource
+java -jar ./target/bowling-0.0.1-SNAPSHOT-jar-with-dependencies.jar -d="X X X X X X X X X XXX"
 ```
 running the executable file
 
 ```bash
-./target/bowling -i=src/test/resources/com/onepoint/bowling/integrationTest/integrationTestResource
+./target/bowling -d="X X X X X X X X X XXX"
 ```
 
 more help is available using :
